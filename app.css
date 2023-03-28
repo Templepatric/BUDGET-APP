@@ -6,49 +6,31 @@ box-sizing: border-box;
 }
 
 body{
-background-color: brown;
-padding: 20px;
-margin: 25px;
-justify-content: center;
-align-items: center;
-}
-
-.form{
-border: 20px;
-margin: 10px;
-padding: 20px;
-position: absolute;
-display: grid;
-justify-content: space-around;
-align-items: center;
+    background-color: brown;
+    margin: 25px;
+    padding: 20px;
 }
 
 .container{
 background-color: white;
-color: blue;
-padding: 10px;
-margin: 20px;
-display: block;
+display: grid;
 justify-content: space-around;
-align-items: center;
-columns: 400px;
-right: 200px;
-row-gap: 25px;
+align-content: center;
+
+}
+
+.input[type=text]{
+width: 100px;
+padding: 12px 20px;
+margin: 8px;
 
 }
 
 
-.container{
-    background-color: white;
-    color: blue;
-    padding: 10px;
-    margin: 20px;
-    bottom: 1px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    columns: 400px;
-    right: 200px;
-    justify-content: flex-start;
-    }
 
+.budget{
+background-color: white;
+display: grid;
+justify-content: space-around;
+align-content: center;
+}

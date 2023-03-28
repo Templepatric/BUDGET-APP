@@ -13,6 +13,12 @@ justify-content: center;
 align-items: center;
 }
 
+.container{
+margin: 30px auto;
+
+}
+
+
 .man{
   display: grid;
 justify-content:center;
